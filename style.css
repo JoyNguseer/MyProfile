@@ -1,0 +1,36 @@
+/* 1.Style the whole page background and center everything */
+body {
+    background-color:  #1a1a1a; /* Dark charcoal grey */
+    color: #ffffff; /* Crisp white text*/
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* 2. Turn your raw links into beautiful layout blocks */
+a {
+    display: inline-block;
+    background-color: #4f46e5; /* Mordern indigo blue */
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    width: 250px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* 3. Make the buttons react when you hover over them */
+a:hover {
+    background-color: #3730a3; /* A slightly darker indigo blue */
+    transform: scale(1.05);      /* Grow the button subtly by 5% */
+    transition: all 0.2s ease;   /* Make the transition smooth not instant */
+}
+
+/* 4. Style the profile picture */
+img{
+    width: 200px;
+    height: 300px;
+    border-radius: 8px;         /* This makes the image a perfect circle */
+    border: 3px solid #4f46e5; /* Adds a nice indigo border around the image */
+    margin-bottom: 20px;
+}
